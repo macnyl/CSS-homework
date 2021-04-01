@@ -34,25 +34,6 @@ h1{
     margin-top: 30px;
 }
 
-/* h2{
-    margin-top: 150px;
-}
-
-h3{
-    margin-top: 30px;
-    margin-bottom: 100px;
-    text-align: right;
-
-} */
-
-/* .underfround{
-    margin-right: 130px;
-    background-color: rgb(75, 71, 71);
-    display: inline;
-} */
-
-
-
 #boxing{
     color: #333;
     padding: 15px;
@@ -72,6 +53,10 @@ h3{
 
 .undeground{
     display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    color: blanchedalmond;
 }
 
 .podval {
@@ -81,9 +66,11 @@ h3{
     box-sizing: border-box;
     padding: 10px;
 }
+
 .left {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .right {
     background-color: rgba(85, 74, 74, 0.5);
 }
