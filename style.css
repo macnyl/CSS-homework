@@ -58,17 +58,17 @@ h3{
 #boxing{
     color: #333;
     padding: 15px;
-    border: 7px solid rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     width: 1111px;
     min-height: 475px;
     background: rgba(31, 31, 31, 0.5);
-    display: block;
+    display: inline-block;
+    width: 100%;    
 }
 
 #boxing-main{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    width: 100%;
     font-size: 32.5px;
 }
 
