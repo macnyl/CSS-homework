@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(./images/14986758865953faae7fc310.91739599.jpg);
+    /* background-repeat: no-repeat; */
 }
 
 .box{
@@ -72,7 +73,8 @@ h3{
 }
 
 .undeground{
-    display: flex;
+    display: inline-block;
+    width: 100%;
     text-align: center;
     font-size: 30px;
     margin-top: 100px;
@@ -81,9 +83,9 @@ h3{
 }
 
 .podval {
-    /* display: inline-block; */
+    display: inline-block;
     min-height: 230px;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
     padding: 10px;
 }
